@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: aqua;
+}
+.container{
+    height: auto;
+    width: 1000px;
+    background: rgb(50, 215, 215);
+    margin: 0 auto;
+}
+
+.content{
+    padding: 2rem;
+    /* margin: 0 auto; */
+}
+
+.button{
+    height: 3rem;
+    width: 30rem;
+    background: rgb(66, 189, 189);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+input{
+    height: 2rem;
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    background: transparent;
+    border: 1px solid;
+}
+input:focus{
+    outline: 0;
+}
+input::placeholder{
+    color: rgba(19, 18, 18, 0.516);
+    padding-left: 10px;
+}
+
+button{
+    height: 2rem;
+    width: 5rem;
+    background: transparent;
+    border: 1px solid;
+}
+button:focus{
+    outline: 0;
+}
+img{
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.content a{
+    padding: 1rem;
+    text-decoration: underline;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-left: 24rem;
+}
+.form{
+    margin: 0 auto;
+    width: 50%;
+}
+.form h2{
+    text-align: center;
+}
+.form #date{
+    margin-left: 2.6rem;
+}
+.form textarea{
+    margin-left: 4.6rem;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+    background: transparent;
+    resize: none;
+    border: 2px solid;
+}
+.form textarea:focus{
+    outline: 0;
+}
+.form .type{
+    margin-left: 6rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}

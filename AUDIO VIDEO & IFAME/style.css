@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* min-height: 1000px; */
+}
+body{
+    background-image: url(assets/background2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contanair{
+    width: 25rem;
+    height: 30rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    background: transparent;
+    padding-top: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 30px 30px 30px black;
+}
+
+audio{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+video{
+    max-height: 10rem;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe{
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}

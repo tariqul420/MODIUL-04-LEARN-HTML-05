@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* min-height: 1000px; */
+}
+body{
+    background-image: url(assets/background2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.contanair{
+    width: 25rem;
+    height: 30rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    background: transparent;
+    padding-top: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 30px 30px 30px black;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10rem;
+    border: none;
+}
+caption{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+td{
+    border: none;
+    padding: 15px;
+}
+.head{
+    background-color: #2C9978;
+    color: white;
+    font-weight: 500;
+}
+.body{
+    background: #FEFFFF;
+    color: black;
+}
+.fast{
+    background: #F2F3F2;
+    color: #2C9978;
+}
