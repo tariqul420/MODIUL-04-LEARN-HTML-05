@@ -10,12 +10,21 @@ body{
     width: 1000px;
     background: rgb(50, 215, 215);
     margin: 0 auto;
+    border-radius: 50px;
 }
 form{
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
-input{
+input[type=text]{
+    height: 2rem;
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    background: transparent;
+    border: 1px solid;
+}
+input[type=date]{
     height: 2rem;
     width: 20rem;
     margin-left: 2rem;
@@ -82,4 +91,27 @@ button:focus{
     margin-left: 6rem;
     margin-right: 1rem;
     margin-bottom: 3rem;
+}
+span{
+    height: 1rem;
+    display: inline-block;
+    margin: 1rem;
+    margin-left: 1.5rem;
+}
+input[type=radio]{
+    opacity: 0.5;
+    cursor: pointer;
+}
+input[type=checkbox]{
+    margin-left: -20.6rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.image{
+    margin-left: 1rem;
+}
+input[type=file]{
+    opacity: 0.5;
+    cursor: pointer;
 }

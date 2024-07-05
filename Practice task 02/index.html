@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Practice Task 01</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="form">
-            <form action="">
-                <h2>Feedback Form</h2>
-                <label for="name">Name</label>
-                <input type="text" class="form-create" placeholder="Your name" required><br>
-                <label for="date">Date</label>
-                <input type="date" class="form-create" id="date" placeholder="Your name" required><br>
-                <label for="Feedback">Feedback</label>
-                <select name="Feedback" id="">
-                    <option value="good">Good</option>
-                    <option value="Batter">Batter</option>
-                    <option value="Best">Best</option>
-                    <option value="Excellent">Excellent</option>
-                    <option value="bad">Bad</option>
-                </select>
-                    
-                <!-- <label for="comment">Comment</label> -->
-                <textarea name="comment" id="" placeholder="Write Your Feedback" required></textarea>
-                <button type="submit" class="button">Submit</button>
-                <button type="reset" class="button">Reset</button>
-            </form>
-        </div>
+      <div class="form">
+        <form action="">
+          <h2>Feedback Form</h2>
+
+          <label for="name">Name</label>
+          <input type="text" class="form-create" placeholder="Your name" required /><br />
+
+          <label for="date">Date</label>
+          <input type="date" class="form-create" id="date" placeholder="Your name" required /><br />
+
+          <label for="gender">Gender</label>
+            <span>
+                <input type="radio" name="gender" id="" value="mail" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="" value="female" />
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" id="" value="others" />
+                <label for="mail">others</label>
+            </span>
+          <br />
+          <label for="Feedback">Feedback</label>
+          <select name="Feedback" id="">
+            <option value="good">Good</option>
+            <option value="Batter">Batter</option>
+            <option value="Best">Best</option>
+            <option value="Excellent">Excellent</option>
+            <option value="bad">Bad</option>
+          </select>
+
+          <label for="image" class="image">Image</label>
+          <input type="file" name="image" id="">
+
+          <!-- <label for="comment">Comment</label> -->
+          <textarea name="comment" id="" placeholder="Write Your Feedback" required></textarea>
+
+          <input type="checkbox" name="checkbox" id="" checked>
+          <label for="checkbox">I Agree to the Terms and Conditions</label>
+
+          <button type="submit" class="button">Submit</button>
+          <button type="reset" class="button">Reset</button>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
